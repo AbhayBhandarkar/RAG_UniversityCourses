@@ -10,7 +10,7 @@ def generate_embedding(text: str) -> list[float]:
 
 
 conn = pymongo.MongoClient(
-    "mongodb+srv://abhaybhandarkar2:password@cluster0.jzzsl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    "yourmongodbcluster")
 db = conn['education']
 coll = db['courses']
 
